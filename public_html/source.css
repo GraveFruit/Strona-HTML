@@ -10,9 +10,12 @@ and open the template in the editor.
 
 body{
     font-family: Verdana;
+    background-image: url("2.jpg");
 }
 
 div.container {
+    background-color: white;
+    
     width: 1000px;
     margin: 0 auto;
     height: 900 px;
@@ -20,10 +23,14 @@ div.container {
 }
 
 header{
-    height: 200px;
+    height: 150px;
+    width: 1000px;
     padding: 1em;
     color: white;
-    background-color: black;
+    //background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("1.jpg");
     clear: left;
     text-align: center;
 }
@@ -32,7 +39,7 @@ footer{
     height: 20px;
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: #058005;
     clear: left;
     text-align: center;
 }
@@ -54,6 +61,8 @@ nav ul a {
 }
 
 article {
+    height: 600px;s
+    background-color: white;
     margin-left: 170px;
     //border-left: 1px solid gray;
     padding: 1em;
