@@ -8,6 +8,8 @@ and open the template in the editor.
     Author     : egzamin
 */
 
+@import "compass/css3";
+
 body{
     font-family: Verdana;
     background-image: url("2.jpg");
@@ -61,10 +63,16 @@ nav ul a {
 }
 
 article {
-    height: 600px;s
+    height: 600px;
     background-color: white;
     margin-left: 170px;
     //border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+
+article anim{
+    float: left;
+    width: 500px;
+    height: 400px;
 }
