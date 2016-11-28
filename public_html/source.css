@@ -8,16 +8,17 @@ and open the template in the editor.
     Author     : egzamin
 */
 
-@import "compass/css3";
+
 
 body{
     font-family: Verdana;
     background-image: url("2.jpg");
 }
 
+
 div.container {
     background-color: white;
-    
+
     width: 1000px;
     margin: 0 auto;
     height: 900 px;
@@ -57,7 +58,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-   
+
 nav ul a {
     text-decoration: none;
 }
@@ -75,4 +76,22 @@ article anim{
     float: left;
     width: 500px;
     height: 400px;
+}
+
+canvas{
+    display: block;
+    position: absolute;
+    border: 1px solid #000;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    
 }
