@@ -215,7 +215,7 @@ function draw() {
                     ctx.fillStyle = "#fff";
                     break;
                 case SNAKE:
-                    ctx.fillStyle = "#0f0";
+                    ctx.fillStyle = "#058005";
                     break;
                 case FRUIT:
                     ctx.fillStyle = "#f00";
